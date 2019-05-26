@@ -1,0 +1,16 @@
+.header{
+    background-color: black;
+    height:13em;
+}
+
+.background-header{
+    position: absolute;
+    width: 100%;
+    top:0;
+    
+}
+
+.top-header{
+    position: relative;
+    z-index: 2;
+}

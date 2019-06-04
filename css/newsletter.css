@@ -1,0 +1,31 @@
+.newsletter {
+    padding: 80px 0;
+}
+
+.newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+.newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; 
+}
+.newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; 
+}
+.newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+.newsletter .single .btn:hover{
+    background-color: #21092e !important; 
+    border-color: #21092e !important; 
+}

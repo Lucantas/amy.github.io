@@ -19,7 +19,7 @@ body{
 } */
 
 *{
-    font-family: :sans-serif;
+    font-family: sans-serif;
 }
 
 .fit-height{
@@ -50,6 +50,22 @@ body{
 .c-secondary{
     color:#f46036 !important;
 }
+.c-white{
+    color:#fff;
+}
+.c-gray-1{
+    color:#f1f1f1;
+}
+.c-gray-2{
+    color:#a1a1a1;
+}
+.b-lightgray{
+    border-color: lightgray !important;
+}
+
+.border-b-1{
+    border-bottom:solid 1px;
+}
 
 .bg-image-default {
     background-size:cover;
@@ -70,4 +86,31 @@ body{
 
 .post-text > p{
     line-height: 1.8em;
+}
+
+.rounded{
+    border-radius:50% !important;
+}
+
+.f-08{
+    font-size: 0.8em;
+}
+.f-1{
+    font-size:1em;
+}
+.f-2{
+    font-size:1.4em !important;
+}
+.f-3{
+    font-size:3em;
+}
+.f-4{
+    font-size:4em;
+}
+
+.f-w-700{
+    font-weight: 700;
+}
+.f-w-900{
+    font-weight: 900;
 }

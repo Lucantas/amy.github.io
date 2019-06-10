@@ -6,10 +6,6 @@ body, html{
     height: 20em;
 }
 
-.main-content{
-    padding: 2em 0;
-}
-
 .post-categories{
     text-transform: uppercase;
 }
@@ -17,4 +13,44 @@ body, html{
 .readers-post-container,
 .readers-post-container .row:hover{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.readers-block{
+    padding-bottom:3rem ;
+    padding-top:3rem;
+}
+
+.popular-categories{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popular-categories ul{
+    display:inline-flex;
+    width:100%;
+    padding:0 .3em;
+    justify-content: space-around;
+}
+
+.popular-categories ul li{
+    text-transform: capitalize;
+    color:#41294e;
+    padding:0 2em;
+    border:solid 1px lightgray;
+    border-radius: 40%;
+    background-color:white;
+}
+
+.popular-categories ul li:hover{
+    text-transform: capitalize;
+    background-color:#f46036;
+    color:white;
+}
+
+@media screen and (min-width: 525px) {
+    .readers-block{
+        padding-bottom:0;
+        padding-top:0;
+    }
 }

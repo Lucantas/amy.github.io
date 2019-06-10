@@ -57,7 +57,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #f46036;
+  background: #41294e;
   display: block;    
   height: 5px;    
   position: relative;    
@@ -67,7 +67,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #f46036;
+  background: #41294e;
   content: '';
   display: block;
   height: 100%;

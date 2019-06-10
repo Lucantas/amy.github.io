@@ -1,16 +1,40 @@
 .header{
     background-color: black;
-    height:13em;
+    height:25em;
 }
 
 .background-header{
     position: absolute;
     width: 100%;
     top:0;
-    
+    line-height: 0.6em;
+    display: flex;
+    align-items: center;
 }
 
 .top-header{
     position: relative;
     z-index: 2;
+}
+
+
+.background-header h1{
+    font-family: 'Emilys Candy', cursive;
+    font-size: 3.5em;
+    line-height: 1em;
+    word-spacing: 100vw;
+}
+
+.background-header h1{
+    font-family: 'Emilys Candy', cursive;
+    font-size: 3.5em;
+    line-height: 1em;
+    word-spacing: 100vw;
+}
+
+@media screen and (min-width: 525px) {
+    .background-header h1{
+        word-spacing: normal;
+        font-size: 4.5em;
+   }
 }

@@ -37,15 +37,24 @@ body, html{
     text-transform: capitalize;
     color:#41294e;
     padding:0 2em;
-    border:solid 1px lightgray;
-    border-radius: 40%;
+    border:solid 1px #e6e6e6;
+    border-radius: 100px;
     background-color:white;
+    padding: 6px 15px !important;
+    border-radius: 30px;
+    transition: .3s background,font-weight ease-in-out;
 }
 
-.popular-categories ul li:hover{
+.popular-categories ul li:hover,
+.popular-categories ul li.active{
     text-transform: capitalize;
     background-color:#f46036;
     color:white;
+    border: solid 0px;    
+}
+
+.popular-categories ul li.active{
+    font-weight: 600;
 }
 
 @media screen and (min-width: 525px) {

@@ -14,6 +14,10 @@ body{
     height:1000px;
 }
 
+article{
+    text-decoration: none;
+}
+
 /* *{
     font-family: 'Mystery Quest', cursive;
 } */
@@ -59,6 +63,9 @@ body{
 .c-gray-2{
     color:#a1a1a1;
 }
+.c-gray-3{
+    color:#333;
+}
 .b-lightgray{
     border-color: lightgray !important;
 }
@@ -102,7 +109,7 @@ body{
     font-size:1.4em !important;
 }
 .f-3{
-    font-size:3em;
+    font-size:2em;
 }
 .f-4{
     font-size:4em;

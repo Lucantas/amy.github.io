@@ -1,6 +1,7 @@
 .main-article{
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: .3s ease-in-out;
+    overflow: hidden;
 }
 
 .main-article:hover{
@@ -13,6 +14,12 @@
     padding-left: 30px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.post-line{
+    border:1px solid #f46036;
+    background:none;
+    height:1px;
 }
 
 @media screen and (min-width:1004px){

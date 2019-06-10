@@ -57,6 +57,32 @@ body, html{
     font-weight: 600;
 }
 
+.comments-button{
+    margin-top:-.2em;
+    border: solid 0;
+    border-radius:100%;
+    width:max-content;
+    background-color: #41294e56;
+}
+
+.comments-button span{
+    font-size: 0.5em;
+    font-weight: 700;
+}
+
+.anchor{
+    text-decoration: none !important;
+    color:#41294e;
+}
+
+.anchor:hover{
+    color:#1f172c;
+}
+
+.post-tags ul li{
+    border-radius:5px;
+}
+
 @media screen and (min-width: 525px) {
     .readers-block{
         padding-bottom:0;

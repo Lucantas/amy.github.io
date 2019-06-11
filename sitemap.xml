@@ -3,25 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucantas.github.io/amy.github.io/categories/aventura/</loc>
-    <lastmod>2019-06-04T10:38:54-03:00</lastmod>
+    <loc>https://lucantas.github.io/amy.github.io/categories/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lucantas.github.io/amy.github.io/categories/</loc>
-    <lastmod>2019-06-04T10:38:54-03:00</lastmod>
+    <loc>https://lucantas.github.io/amy.github.io/categories/cool/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucantas.github.io/amy.github.io/</loc>
-    <lastmod>2019-06-04T10:38:54-03:00</lastmod>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lucantas.github.io/amy.github.io/post/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/tags/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/categories/teste/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/post/um-post-relacionado/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/tags/d%C3%BAvida/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/tags/related/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/tags/teste/</loc>
+    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/categories/aventura/</loc>
     <lastmod>2019-06-04T10:38:54-03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -55,20 +96,14 @@
   </url>
   
   <url>
-    <loc>https://lucantas.github.io/amy.github.io/post/pais-de-primeira-viagem/</loc>
-    <lastmod>2019-06-04T03:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucantas.github.io/amy.github.io/tags/</loc>
-    <lastmod>2019-06-04T03:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://lucantas.github.io/amy.github.io/categories/d%C3%BAvida/</loc>
     <lastmod>2019-06-04T03:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/post/pais-de-primeira-viagem/</loc>
+    <lastmod>2019-06-04T03:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -80,12 +115,6 @@
   <url>
     <loc>https://lucantas.github.io/amy.github.io/categories/surpresa/</loc>
     <lastmod>2019-06-04T03:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucantas.github.io/amy.github.io/categories/teste/</loc>
-    <lastmod>2019-05-26T17:45:26-03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,12 +148,6 @@
   
   <url>
     <loc>https://lucantas.github.io/amy.github.io/categories/hugo/</loc>
-    <lastmod>2019-05-25T22:36:47-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucantas.github.io/amy.github.io/tags/teste/</loc>
     <lastmod>2019-05-25T22:36:47-03:00</lastmod>
     <priority>0</priority>
   </url>

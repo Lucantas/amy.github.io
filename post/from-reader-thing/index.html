@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="https://lucantas.github.io/amy.github.io/fonts/icofont/icofont.min.css">
 </head><body class=""><header class="header container-fluid bg-primary">
     
-    <div class="row justify-content-between fit-height of-hidden top-header">
+    <div id="topHeader" class="row justify-content-between fit-height of-hidden top-header">
         <a href="" class="logo col-4 m-0 pl-3 pt-1 c-secondary"></a>
-        <div class="col-2 pt-2 pr-2 fit-height fit-content">
+        <div class="col-2 pt-2 pr-2 fit-height fit-content z-index-4">
             <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <label id="menuBtn" class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
             </ul>
         </div>
@@ -30,11 +30,20 @@
     style="background-image:url(https://lucantas.github.io/amy.github.io/img/bg-secondary.png);line-height:0.6em;">
     <h1 class="c-primary">pais por acaso</h1>
     </div>
-</header><div id="content" class="main-content"><section class="col-md-12 pl-5 pr-5">
+</header>
+<nav id="menu" class="nav menu-nav container-fluid p-5 bg-secondary hidden">       
+    <ul class="list-unstyled container">
+        
+            <li class="mt-3 mb-3 fit-content c-primary"><a class="anchor c-primary" href="/amy.github.io/">Início</a></li>    
+        
+            <li class="mt-3 mb-3 fit-content c-primary"><a class="anchor c-primary" href="/amy.github.io/about">Sobre</a></li>    
+        
+            <li class="mt-3 mb-3 fit-content c-primary"><a class="anchor c-primary" href="/amy.github.io/contact">Contato</a></li>    
+        
+    </ul>
+</nav><div id="content" class="main-content"><section class="col-md-12 pl-5 pr-5">
     <article class="row mt-4 ml-auto mr-auto bg-white c-gray-3 pt-5 pb-5">
         <figure class="fit-width m-0">
-            
-                <img src="https://lucantas.github.io/amy.github.io/img/reader2.jpg" alt="" srcset="" class="fit-width">
             
         </figure>
         <div class="pl-0 pr-0 bg-white fit-width mt-4">            
@@ -42,29 +51,12 @@
                 <h1>O meu primeiro parto</h1>
             </a>
             
-                
-                <p class="mt-4">
-                    
-                        by Amy 
-                    
-                    4 Junho 2019
-                </p>
-            
             <div class="row pl-3 pr-3">
-                
-                <div class="col-6 post-footer pt-2 pb-2 pl-0 pr-0 bg-white fit-width c-secondary post-categories f-08">                          
-                    
-                                        
-                        Parto, 
-                                        
-                        Meninas
-                    
-                </div>  
                 
                 <div class="col-6">
                     <div class="comments-button f-2 col-12 pr-0 p-2 ml-auto text-center row justify-content-center align-items-center">
-                        <i class="icofont-speech-comments c-secondary col-6"></i>            
-                        <span class="c-primary text-center col-6 p-0">0</span>
+                        <i class="icofont-speech-comments c-secondary col-5 p-0"></i>            
+                        <span class="c-primary text-center col-6 pl-2 pr-0">0</span>
                     </div>
                 </div>       
             </div>   
@@ -76,9 +68,6 @@
         
         <div class="col-12 mt-4 post-line pl-0"></div>
         <div class="popular-categories col-12 mt-4 pl-0 ml-0 row">   
-            
-                
-                
             
             <ul class="list-unstyled m-0 pl-0">
                 <li class="pt-2 pb-2 ml-1 mr-1"><i class="icofont-share"></i> Compartilhar</li>        
@@ -270,7 +259,8 @@
     </article> 
 </section>
 
-        </div><section class="newsletter container-fluid bg-primary newsletter-block">
+        </div><script src="https://lucantas.github.io/amy.github.io/js/main.js"></script>
+<script src="https://lucantas.github.io/amy.github.io/js/all.js"></script><footer class="container-fluid p-0"><section class="newsletter container-fluid bg-primary newsletter-block">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -286,5 +276,5 @@
             </div>
         </div>
     </div>
-</section></body>
+</section></footer></body>
 </html>

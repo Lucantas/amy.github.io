@@ -52,8 +52,11 @@
   padding: 0 5px;
   position: relative;
   user-select: none;
-  height: 2em;  
+  height: 2.6em;  
   top: 1em;
+  border-radius: 100%;
+  width: 50px;
+  transition: background .2s ease-out;    
 }
 
 .header .menu-icon .navicon {
@@ -63,6 +66,8 @@
   position: relative;    
   transition: background .2s ease-out;    
   width: 30px;
+  margin-top: 10px;
+  margin-left: 4px;
 }
 
 .header .menu-icon .navicon:before,
@@ -83,6 +88,11 @@
 
 .header .menu-icon .navicon:after {
   top: -5px;
+}
+
+.header .menu-icon:focus,
+.header .menu-icon:hover{
+  background-color: #f46036;
 }
 
 /* menu btn */
@@ -109,7 +119,25 @@
 
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
+  top: -5px;
+}
+
+.menu-nav{
+  position: absolute;
+  top: 75px;
+  z-index: 3;
+  height: 100vh;
+}
+
+.menu-nav li{
+  font-size: 2.5em;
+  border-bottom: solid 0px #41294e;
+  transition: 0.2s;
+}
+
+.menu-nav li:hover{
+  border-bottom: solid 2px #41294e;
+  width: 100%;
 }
 
 /* 48em = 768px */

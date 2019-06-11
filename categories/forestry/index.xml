@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forestry on Pais por Acaso</title>
+    <link>https://lucantas.github.io/amy.github.io/categories/forestry/</link>
+    <description>Recent content in Forestry on Pais por Acaso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 May 2019 03:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucantas.github.io/amy.github.io/categories/forestry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Forestry!</title>
+      <link>https://lucantas.github.io/amy.github.io/post/hello-forestry/</link>
+      <pubDate>Fri, 24 May 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/hello-forestry/</guid>
+      <description>Hello Forestry, vamo vê se funciona bem</description>
+    </item>
+    
+  </channel>
+</rss>

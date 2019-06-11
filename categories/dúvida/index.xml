@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dúvida on Pais por Acaso</title>
+    <link>https://lucantas.github.io/amy.github.io/categories/d%C3%BAvida/</link>
+    <description>Recent content in dúvida on Pais por Acaso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2019 03:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lucantas.github.io/amy.github.io/categories/d%C3%BAvida/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pais de primeira viagem</title>
+      <link>https://lucantas.github.io/amy.github.io/post/pais-de-primeira-viagem/</link>
+      <pubDate>Tue, 04 Jun 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/pais-de-primeira-viagem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Não sei mozi</title>
+      <link>https://lucantas.github.io/amy.github.io/post/n%C3%A3o-sei-mozi/</link>
+      <pubDate>Sat, 25 May 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/n%C3%A3o-sei-mozi/</guid>
+      <description>Estou com vontade de comer bacon&amp;hellip; Sempre! Mas a pessoa compra o bacon e deixa estragar, infelizmente não compro mais bacon</description>
+    </item>
+    
+  </channel>
+</rss>

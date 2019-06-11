@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Pais por Acaso</title>
+    <link>https://lucantas.github.io/amy.github.io/categories/hugo/</link>
+    <description>Recent content in Hugo on Pais por Acaso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:36:47 -0300</lastBuildDate>
+    
+	<atom:link href="https://lucantas.github.io/amy.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://lucantas.github.io/amy.github.io/post/hello-hugo8/</link>
+      <pubDate>Sat, 25 May 2019 22:36:47 -0300</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/hello-hugo8/</guid>
+      <description>Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat rhoncus magna, at consequat libero dictum…</description>
+    </item>
+    
+  </channel>
+</rss>

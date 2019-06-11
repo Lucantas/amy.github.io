@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>teste on Pais por Acaso</title>
+    <link>https://lucantas.github.io/amy.github.io/tags/teste/</link>
+    <description>Recent content in teste on Pais por Acaso</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2019 22:36:47 -0300</lastBuildDate>
+    
+	<atom:link href="https://lucantas.github.io/amy.github.io/tags/teste/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://lucantas.github.io/amy.github.io/post/hello-hugo8/</link>
+      <pubDate>Sat, 25 May 2019 22:36:47 -0300</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/hello-hugo8/</guid>
+      <description>Morbi eu ante mollis, elementum tortor in, hendrerit libero. Maecenas feugiat rhoncus magna, at consequat libero dictum…</description>
+    </item>
+    
+    <item>
+      <title>Não sei mozi</title>
+      <link>https://lucantas.github.io/amy.github.io/post/n%C3%A3o-sei-mozi/</link>
+      <pubDate>Sat, 25 May 2019 03:00:00 +0000</pubDate>
+      
+      <guid>https://lucantas.github.io/amy.github.io/post/n%C3%A3o-sei-mozi/</guid>
+      <description>Estou com vontade de comer bacon&amp;hellip; Sempre! Mas a pessoa compra o bacon e deixa estragar, infelizmente não compro mais bacon</description>
+    </item>
+    
+  </channel>
+</rss>

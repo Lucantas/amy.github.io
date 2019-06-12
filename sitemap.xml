@@ -3,6 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucantas.github.io/amy.github.io/</loc>
+    <lastmod>2019-06-12T03:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lucantas.github.io/amy.github.io/sobre-n%C3%B3s/</loc>
+    <lastmod>2019-06-12T03:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucantas.github.io/amy.github.io/categories/</loc>
     <lastmod>2019-06-11T03:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -10,12 +21,6 @@
   
   <url>
     <loc>https://lucantas.github.io/amy.github.io/categories/cool/</loc>
-    <lastmod>2019-06-11T03:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lucantas.github.io/amy.github.io/</loc>
     <lastmod>2019-06-11T03:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

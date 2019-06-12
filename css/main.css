@@ -81,6 +81,15 @@ article{
 .c-gray-3{
     color:#333;
 }
+.c-facebook{
+    color:#3b5999 !important;
+}
+.c-twitter{
+    color:#55acee !important;
+}
+.c-whatsapp{
+    color:#25D366 !important;
+}
 .b-lightgray{
     border-color: lightgray !important;
 }

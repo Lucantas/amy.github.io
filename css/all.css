@@ -45,6 +45,10 @@ body, html{
     transition: .3s background,font-weight ease-in-out;
 }
 
+.popular-categories ul li.lg{
+    padding: 6px 35px !important;
+}
+
 .popular-categories ul li:hover,
 .popular-categories ul li.active{
     text-transform: capitalize;

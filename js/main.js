@@ -19,20 +19,51 @@ if (!Object.prototype.fadeOut){
 }
 
 if (!Object.prototype.addClass){
-    Object.prototype.addClass = function(className){
-        if (!this.classList.contains(className)){
-            this.classList.add(className);
+    Object.prototype.addClass = function(){
+        var items;
+        if (arguments[0].split(" ").length > 0){
+            items = arguments[0].split(" ");
+        } else {
+            items = Array.from(arguments);
         }
+        items.forEach((className) => {
+            if (!this.classList.contains(className)){
+                this.classList.add(className);
+            }
+        })
     }
 }
 
 if (!Object.prototype.removeClass){
     Object.prototype.removeClass = function(className){
-        if (this.classList.contains(className)){
-            this.classList.remove(className);
+        var items;
+        if (arguments[0].split(" ").length > 0){
+            items = arguments[0].split(" ");
+        } else {
+            items = Array.from(arguments);
         }
+        items.forEach((className) => {
+            if (this.classList.contains(className)){
+                this.classList.remove(className);
+            }
+        })       
     }
 }
+
+if (!Node.prototype.clear){
+	Node.prototype.clear = function(){
+		this.innerText = "";
+		this.innerHtml = "";
+	}
+}
+
+if (!Node.prototype.hasClass){
+    Node.prototype.hasClass = function(className){
+        if (this.classList.contains(className)) return true;
+        return false;
+    }
+}
+
 
 function exists(variable){
     switch ( variable ){
@@ -48,8 +79,10 @@ function toggleVisibility(element,time,initial,end){
     if(initial == 0){
         increment = 2;
         element.style.display = "block";
+        element.removeClass("hidden");
     }else {
         increment = -2;
+        element.addClass("hidden");
     }
 
     opc = initial;

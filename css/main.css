@@ -116,6 +116,7 @@ article{
 
 .hidden{
     opacity: 0;
+    visibility: hidden;
 }
 
 .f-08{

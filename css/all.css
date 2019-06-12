@@ -53,7 +53,7 @@ body, html{
 .popular-categories ul li.active{
     text-transform: capitalize;
     background-color:#f46036;
-    color:white;
+    color:white !important;
     border: solid 0px;    
 }
 
@@ -75,11 +75,11 @@ body, html{
 
 .anchor{
     text-decoration: none !important;
-    color:#41294e;
+    color:inherit;
 }
 
 .anchor:hover{
-    color:#1f172c;
+    color:inherit;
 }
 
 .post-tags ul li{

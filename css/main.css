@@ -10,8 +10,8 @@ h6{
     padding:0;
     margin: 0;
 }
-body{
-    height:1000px;
+body{    
+    overflow-x: hidden;
 }
 
 article{
@@ -60,6 +60,9 @@ article{
     background-color:#f46036 !important;
 }
 
+.bg-tertiary{
+    background-color: #f3a712 !important;
+}
 .bg-gray-1{
     background-color: #f1f1f1;
 }
@@ -109,6 +112,10 @@ article{
 
 .of-hidden{
     overflow: hidden;
+}
+
+.of-x-hidden{
+    overflow-x: hidden;
 }
 
 .fit-width{

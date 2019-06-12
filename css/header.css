@@ -17,16 +17,12 @@
     z-index: 2;
 }
 
-
-.background-header h1{
+.background-header h1,
+.logo{
     font-family: 'Emilys Candy', cursive;
-    font-size: 3.5em;
-    line-height: 1em;
-    word-spacing: 100vw;
 }
 
 .background-header h1{
-    font-family: 'Emilys Candy', cursive;
     font-size: 3.5em;
     line-height: 1em;
     word-spacing: 100vw;

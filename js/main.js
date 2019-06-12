@@ -1,25 +1,31 @@
-if (!Object.prototype.hide){
-    Object.prototype.hide = function(){
+if (!Node.prototype.hide){
+    Node.prototype.hide = function(){
         this.style.display = "none";
     }
 }
 
-if (!Object.prototype.fadeIn){
-    Object.prototype.fadeIn = function(time){
+if (!Node.prototype.show){
+    Node.prototype.show = function(display){
+        this.style.display = display || "block";
+    }
+}
+
+if (!Node.prototype.fadeIn){
+    Node.prototype.fadeIn = function(time){
         time = time || .3;
         toggleVisibility(this,time,0,100);
     }
 }
 
-if (!Object.prototype.fadeOut){
-    Object.prototype.fadeOut = function(time){
+if (!Node.prototype.fadeOut){
+    Node.prototype.fadeOut = function(time){
         time = time || .3;
         toggleVisibility(this,time,100,0);
     }
 }
 
-if (!Object.prototype.addClass){
-    Object.prototype.addClass = function(){
+if (!Node.prototype.addClass){
+    Node.prototype.addClass = function(){
         var items;
         if (arguments[0].split(" ").length > 0){
             items = arguments[0].split(" ");
@@ -34,8 +40,8 @@ if (!Object.prototype.addClass){
     }
 }
 
-if (!Object.prototype.removeClass){
-    Object.prototype.removeClass = function(className){
+if (!Node.prototype.removeClass){
+    Node.prototype.removeClass = function(className){
         var items;
         if (arguments[0].split(" ").length > 0){
             items = arguments[0].split(" ");

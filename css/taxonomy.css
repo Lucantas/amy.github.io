@@ -1,0 +1,5 @@
+.category-title{
+    font-family: 'Emilys Candy', cursive;
+    border-bottom: solid 1px lightgray;
+    text-transform: capitalize;
+}

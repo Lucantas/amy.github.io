@@ -49,6 +49,10 @@ article{
     width: max-content;
 }
 
+.b-secondary{
+    border-color: #f46036 !important;
+}
+
 .bg-primary{
     background-color:#41294e !important;
 }
@@ -109,6 +113,28 @@ article{
 
 .fit-width{
     width:100%;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.bottom-absolute{
+    position: absolute;
+    bottom: 0;
+}
+
+.top-absolute{
+    position: absolute;
+    top: 0;
+}
+.left-absolute{
+    position: absolute;
+    left: 0;
+}
+.right-absolute{
+    position: absolute;
+    right: 0;
 }
 
 .flex{

@@ -90,6 +90,13 @@ body, html{
     border-radius:5px;
 }
 
+.title.c-gray-3:hover,
+.title.c-gray-3:visited,
+.title.c-gray-3:active{
+    color:#717171;
+}
+
+
 @media screen and (min-width: 525px) {
     .readers-block{
         padding-bottom:0;

@@ -4,6 +4,7 @@ const LOGO = document.getElementById("logo");
 
 (window).onload = function(){
     handleMenu();
+    categoriesSlide();
 }   
 
 function handleMenu(elm){
@@ -21,4 +22,20 @@ function handleMenu(elm){
             LOGO.removeClass("d-none");
         }
     }
+}
+
+function categoriesSlide(){
+
+    new Glide('#categories', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        rewind:false
+    }).mount();
+
+    //categories.querySelector("ul").style.width = "100%";
+    categories.querySelectorAll("li").forEach((li) => {
+        li.style.width = "100%";
+    })
+
 }

@@ -70,6 +70,11 @@ if (!Node.prototype.hasClass){
     }
 }
 
+if (!NodeList.prototype.indexOf){
+    NodeList.prototype.indexOf = function(elm){
+        return Array.prototype.indexOf.call(this,elm) 
+    }
+}
 
 function exists(variable){
     switch ( variable ){

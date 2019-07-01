@@ -1,6 +1,6 @@
 const MENU = document.getElementById("menu");
 const LOGO = document.getElementById("logo");
-
+const CATEGORIES = document.getElementById("categories");
 
 (window).onload = function(){
     handleMenu();
@@ -26,15 +26,20 @@ function handleMenu(elm){
 
 function categoriesSlide(){
 
+    // categories element not loaded, do nothing
+    if (!CATEGORIES) return;
+
+    const list = CATEGORIES.querySelectorAll('li');
+    const index = list.indexOf(CATEGORIES.querySelector("li:not(.glide__slide--clone).active"));
+
     new Glide('#categories', {
         type: 'carousel',
-        startAt: 0,
         perView: 3,
-        rewind:false
+        startAt:index
     }).mount();
 
     //categories.querySelector("ul").style.width = "100%";
-    categories.querySelectorAll("li").forEach((li) => {
+    CATEGORIES.querySelectorAll("li").forEach((li) => {
         li.style.width = "100%";
     })
 
